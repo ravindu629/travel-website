@@ -1,0 +1,33 @@
+/* CSS */
+body {
+  background-color: #ecf0f1;
+}
+
+.section-one {
+  position: relative;
+  height: 100vh; /* Adjust this as needed */
+}
+
+.bg-image {
+  background-image: url("assets/images/home-bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.top-box {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  width: 70%;
+  height: 130px;
+  background-color: #ffffff;
+  z-index: 1;
+  transform: translateY(50%);
+}
