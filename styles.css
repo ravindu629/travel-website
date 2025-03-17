@@ -3,9 +3,25 @@ body {
   background-color: #ecf0f1;
 }
 
+.main-title {
+  font-size: 4rem;
+}
+
+.heading-one {
+  font-size: 2.5rem;
+}
+
+.heading-two {
+  font-size: 1.2rem;
+}
+
+.heading-three {
+  font-size: 1rem;
+}
+
 .section-one {
   position: relative;
-  height: 100vh; /* Adjust this as needed */
+  height: 100vh;
 }
 
 .bg-image {
@@ -30,4 +46,81 @@ body {
   background-color: #ffffff;
   z-index: 1;
   transform: translateY(50%);
+}
+
+.section-two .col {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.section-two .img-thumbnail {
+  width: 100%;
+  height: auto;
+}
+
+.section-two .vacation-item {
+  position: relative;
+}
+
+.section-two .column-heading {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  background-color: white;
+  text-align: center;
+  z-index: 1;
+  width: 80%;
+}
+
+.section-two .heading-two {
+  border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+  .section-two .vacation-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .section-two .column-heading {
+    width: 90%;
+  }
+}
+
+.card-container {
+  margin: 12px;
+  max-width: 612px;
+}
+
+.custom-img-size {
+  width: 20%;
+  height: auto;
+}
+
+.section-five {
+  position: relative;
+  height: 60vh;
+}
+
+.bg-image-footer {
+  background-image: url("assets/images/footer-image.png");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+}
+
+.form-box-footer {
+  position: absolute;
+  bottom: 0;
+  right: 15%;
+  width: 30%;
+  height: 40vh;
+  background-color: #ffffff;
+  z-index: 1;
 }
