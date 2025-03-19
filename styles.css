@@ -3,31 +3,31 @@ body {
   background-color: #ecf0f1;
 }
 
+.container {
+  width: 1140px;
+}
+
+.container-fluid {
+  width: 1366px;
+}
+
+.navbar {
+  height: 70px;
+}
+
 .main-title {
   font-size: 4rem;
 }
 
-.heading-one {
-  font-size: 2.5rem;
-}
-
-.heading-two {
-  font-size: 1.2rem;
-}
-
-.heading-three {
-  font-size: 1rem;
-}
-
 .section-one {
   position: relative;
-  height: 100vh;
+  height: 690px;
 }
 
 .bg-image {
   background-image: url("assets/images/home-bg.png");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   height: 100%;
   position: absolute;
   top: 0;
@@ -38,19 +38,35 @@ body {
 
 .top-box {
   position: absolute;
-  bottom: 0px;
-  left: 0;
-  right: 0;
-  width: 70%;
-  height: 130px;
+  bottom: -80px;
+  left: 198px;
+  width: 970px;
+  height: 160px;
   background-color: #ffffff;
   z-index: 1;
-  transform: translateY(50%);
 }
 
 .section-two .col {
   position: relative;
-  margin-bottom: 30px;
+}
+
+.vacation-col-1 {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+.vacation-col-2 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.vacation-col-3 {
+  padding-right: 0;
+  padding-left: 20px;
+}
+
+.section-two {
+  padding-top: 170px;
 }
 
 .section-two .img-thumbnail {
@@ -64,18 +80,21 @@ body {
 
 .section-two .column-heading {
   position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 30px;
+  bottom: 26px;
   color: black;
   background-color: white;
   text-align: center;
   z-index: 1;
-  width: 80%;
+  width: 300px;
+  height: 100px;
 }
 
 .section-two .heading-two {
   border: 1px solid black;
+  margin: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 768px) {
@@ -91,19 +110,54 @@ body {
   }
 }
 
-.card-container {
-  margin: 12px;
-  max-width: 612px;
+.section-three {
+  padding-top: 90px;
 }
 
-.custom-img-size {
-  width: 20%;
-  height: auto;
+.card-container {
+  max-width: 530px;
+  margin-bottom: 22px;
+}
+
+.card-body {
+  padding: 26px 9px;
+}
+
+.card-body img {
+  margin-right: 25px;
+}
+
+.card-image {
+  width: 100px;
+  height: 100px;
+  background-color: #0f9d55;
+}
+
+.title-separator {
+  width: 75px;
+  height: 10px;
+  margin-top: 15px;
+  margin-bottom: 27px;
+}
+
+.section-four {
+  padding-top: 65px;
+  height: 520px;
 }
 
 .section-five {
   position: relative;
-  height: 60vh;
+  height: 570px;
+}
+
+.section-six {
+  height: 300px;
+}
+
+.footer-container {
+  padding-top: 40px;
+  padding-left: 106px;
+  padding-right: 180px;
 }
 
 .bg-image-footer {
@@ -112,15 +166,228 @@ body {
   background-position: center;
   position: absolute;
   height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: -1;
 }
 
 .form-box-footer {
   position: absolute;
   bottom: 0;
-  right: 15%;
-  width: 30%;
-  height: 40vh;
+  right: 180px;
+  width: 390px;
+  height: 400px;
   background-color: #ffffff;
   z-index: 1;
+}
+
+/* font style */
+
+.nav-link {
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #454851;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.brand {
+  font-size: 36px;
+  line-height: 21px;
+  color: #171d1c;
+  font-family: "Birthstone", cursive;
+}
+
+.main-title {
+  font-size: 60px;
+  letter-spacing: 3px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.heading-one {
+  font-size: 48px;
+  color: #171d1c;
+  font-weight: bold;
+  font-family: "Kepler Std";
+}
+
+.heading-two {
+  font-size: 24px;
+  color: #454851;
+  font-weight: bold;
+  font-family: "Kepler Std";
+}
+
+.card-title {
+  font-size: 24px;
+  color: #171d1c;
+  font-weight: bold;
+  font-family: "Kepler Std";
+  text-align: center;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 22px;
+  color: #454851;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.section-six h4 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.section-six li {
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+.card-body h5 {
+  font-size: 30px;
+  color: #171d1c;
+  font-weight: bold;
+  font-family: "Kepler Std";
+}
+
+.card-body p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #454851;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.holiday-card-btn {
+  width: 120px;
+  height: 38px;
+  background-color: #f21131;
+  border: 1px solid #f21131;
+  margin-top: 20px;
+}
+
+.holiday-card-btn:hover {
+  background-color: #f21131 !important;
+}
+
+/* form style  */
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  padding: 15px 40px 0px;
+  font-size: 16px;
+  color: #999999;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+.custom-input {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  border-radius: 0;
+  padding: 5px;
+  max-width: 190px;
+  background: transparent;
+  outline: none;
+}
+.custom-input:focus {
+  border-color: black;
+  box-shadow: none;
+}
+
+.dropdown-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.dropdown-toggle::after {
+  border: none;
+  content: "⌄";
+  font-size: 14px;
+  color: gray;
+  margin-left: auto;
+}
+.search-btn {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.form-container {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+  background: white;
+  font-size: 16px;
+  color: #999999;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  margin: 34px 45px 39px;
+  height: 326px;
+}
+
+.custom-form-input {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  border-radius: 0;
+  padding: 5px;
+  background: transparent;
+  outline: none;
+}
+
+.form-title {
+  font-size: 30px;
+  color: #1a1a1a;
+  font-weight: bold;
+  font-family: "Kepler Std";
+}
+
+.footer-form-input {
+  font-size: 16px;
+  color: #999999;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer-form-btn {
+  width: 95px;
+  height: 38px;
+  background-color: #f21131;
+  border: 1px solid #f21131;
+  margin-top: auto;
+}
+
+.dropdown-toggle-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
