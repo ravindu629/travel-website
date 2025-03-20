@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&family=Lavishly+Yours&family=Mea+Culpa&family=Princess+Sofia&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Proxima+Nova");
+
 /* CSS */
 body {
   background-color: #ecf0f1;
@@ -13,10 +16,6 @@ body {
 
 .navbar {
   height: 70px;
-}
-
-.main-title {
-  font-size: 4rem;
 }
 
 .section-one {
@@ -76,12 +75,18 @@ body {
 
 .section-two .vacation-item {
   position: relative;
+  padding: 0;
+  max-height: 300px;
+}
+
+.flex-grow-1 {
+  max-width: 190px;
 }
 
 .section-two .column-heading {
   position: absolute;
   left: 30px;
-  bottom: 26px;
+  bottom: 30px;
   color: black;
   background-color: white;
   text-align: center;
@@ -111,20 +116,20 @@ body {
 }
 
 .section-three {
-  padding-top: 90px;
+  padding-top: 88px;
 }
 
 .card-container {
   max-width: 530px;
-  margin-bottom: 22px;
+  margin-bottom: 30px;
 }
 
 .card-body {
-  padding: 26px 9px;
+  padding: 20px 9px 0;
 }
 
 .card-body img {
-  margin-right: 25px;
+  margin-right: 40px;
 }
 
 .card-image {
@@ -136,13 +141,13 @@ body {
 .title-separator {
   width: 75px;
   height: 10px;
-  margin-top: 15px;
-  margin-bottom: 27px;
+  margin-top: 16px;
+  margin-bottom: 30px;
 }
 
 .section-four {
-  padding-top: 65px;
-  height: 520px;
+  padding-top: 58px;
+  height: 515px;
 }
 
 .section-five {
@@ -191,23 +196,25 @@ body {
   text-transform: uppercase;
   color: #454851;
   font-weight: bold;
-  font-family: "Roboto", sans-serif;
+  font-family: "proxima-nova", sans-serif;
 }
 
 .brand {
-  font-size: 36px;
+  font-size: 30px;
   line-height: 21px;
   color: #171d1c;
-  font-family: "Birthstone", cursive;
+  font-family: "Princess Sofia", cursive;
+  font-weight: bolder;
+  letter-spacing: 0px;
 }
 
 .main-title {
   font-size: 60px;
-  letter-spacing: 3px;
+  letter-spacing: 1.3px;
   line-height: 21px;
   text-transform: uppercase;
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: "proxima-nova", sans-serif;
 }
 
 .heading-one {
@@ -225,11 +232,10 @@ body {
 }
 
 .card-title {
-  font-size: 24px;
+  font-size: 30px;
   color: #171d1c;
   font-weight: bold;
   font-family: "Kepler Std";
-  text-align: center;
 }
 
 .card-text {
@@ -237,7 +243,6 @@ body {
   line-height: 22px;
   color: #454851;
   font-weight: 300;
-  font-family: "Roboto", sans-serif;
   text-align: center;
 }
 
@@ -246,30 +251,29 @@ body {
   line-height: 24px;
   color: #ffffff;
   font-weight: bold;
-  font-family: "Roboto", sans-serif;
+  font-family: "proxima-nova", sans-serif;
 }
 
 .section-six li {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 23px;
   color: #ffffff;
   font-weight: normal;
-  font-family: "Roboto", sans-serif;
+  font-family: "proxima-nova", sans-serif;
 }
 
 .card-body h5 {
-  font-size: 30px;
+  font-size: 24px;
   color: #171d1c;
   font-weight: bold;
-  font-family: "Kepler Std";
 }
 
 .card-body p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
   color: #454851;
   font-weight: 300;
-  font-family: "Roboto", sans-serif;
+  font-family: "proxima-nova", sans-serif;
 }
 
 h1 {
@@ -278,10 +282,10 @@ h1 {
 
 .holiday-card-btn {
   width: 120px;
-  height: 38px;
+  height: 37px;
   background-color: #f21131;
   border: 1px solid #f21131;
-  margin-top: 20px;
+  margin-top: 27px;
 }
 
 .holiday-card-btn:hover {
@@ -295,11 +299,11 @@ h1 {
   align-items: center;
   gap: 10px;
   background: white;
-  padding: 15px 40px 0px;
+  padding: 12px 38px 0px;
   font-size: 16px;
   color: #999999;
   font-weight: 300;
-  font-family: "Roboto", sans-serif;
+  font-family: "proxima-nova", sans-serif;
 }
 
 .custom-input {
@@ -311,6 +315,7 @@ h1 {
   background: transparent;
   outline: none;
 }
+
 .custom-input:focus {
   border-color: black;
   box-shadow: none;
@@ -350,8 +355,8 @@ h1 {
   font-size: 16px;
   color: #999999;
   font-weight: 300;
-  font-family: "Roboto", sans-serif;
-  margin: 34px 45px 39px;
+  font-family: "proxima-nova", sans-serif;
+  margin: 32px 45px;
   height: 326px;
 }
 
@@ -362,6 +367,7 @@ h1 {
   padding: 5px;
   background: transparent;
   outline: none;
+  margin-bottom: 7px;
 }
 
 .form-title {
@@ -374,7 +380,8 @@ h1 {
 .footer-form-input {
   font-size: 16px;
   color: #999999;
-  font-family: "Roboto", sans-serif;
+  font-family: "proxima-nova", sans-serif;
+  padding: 0;
 }
 
 .footer-form-btn {
@@ -390,4 +397,29 @@ h1 {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+}
+
+.holiday-col-size {
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.footer-col-1 {
+  width: 130px;
+  padding-left: 20px;
+}
+.footer-col-2 {
+  width: 130px;
+  padding-left: 20px;
+}
+.footer-col-3 {
+  width: 130px;
+  padding-left: 20px;
+}
+.footer-col-4 {
+  width: 250px;
+  padding-left: 20px;
+}
+.footer-col-5 {
+  width: 400px;
 }
