@@ -1,11 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Birthstone&family=Lavishly+Yours&family=Mea+Culpa&family=Princess+Sofia&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Proxima+Nova");
 
-/* CSS */
 body {
   background-color: #ecf0f1;
 }
 
+/* font styles */
+.proxima-nova {
+  font-family: "proxima-nova", sans-serif;
+}
+
+.princess-sofia {
+  font-family: "Princess Sofia", cursive;
+}
+
+.kepler {
+  font-family: "Kepler Std";
+}
+
+/* basic layout */
 .container {
   width: 1140px;
 }
@@ -15,7 +28,7 @@ body {
 }
 
 .navbar {
-  height: 70px;
+  height: 69px;
 }
 
 .section-one {
@@ -27,30 +40,16 @@ body {
   background-image: url("assets/images/home-bg.png");
   background-size: cover;
   background-position: bottom;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
 }
 
 .top-box {
-  position: absolute;
   bottom: -80px;
   left: 198px;
   width: 970px;
   height: 160px;
-  background-color: #ffffff;
-  z-index: 1;
-}
-
-.section-two .col {
-  position: relative;
 }
 
 .vacation-col-1 {
-  padding-left: 0;
   padding-right: 20px;
 }
 
@@ -60,7 +59,6 @@ body {
 }
 
 .vacation-col-3 {
-  padding-right: 0;
   padding-left: 20px;
 }
 
@@ -68,51 +66,27 @@ body {
   padding-top: 170px;
 }
 
-.section-two .img-thumbnail {
-  width: 100%;
-  height: auto;
-}
-
 .section-two .vacation-item {
-  position: relative;
-  padding: 0;
   max-height: 300px;
 }
 
 .flex-grow-1 {
   max-width: 190px;
+  margin-right: 18px;
 }
 
 .section-two .column-heading {
-  position: absolute;
   left: 30px;
   bottom: 30px;
-  color: black;
-  background-color: white;
-  text-align: center;
   z-index: 1;
   width: 300px;
   height: 100px;
 }
 
 .section-two .heading-two {
-  border: 1px solid black;
   margin: 15px;
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-@media (max-width: 768px) {
-  .section-two .vacation-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .section-two .column-heading {
-    width: 90%;
-  }
 }
 
 .section-three {
@@ -146,12 +120,11 @@ body {
 }
 
 .section-four {
-  padding-top: 58px;
+  padding-top: 57px;
   height: 515px;
 }
 
 .section-five {
-  position: relative;
   height: 570px;
 }
 
@@ -161,81 +134,68 @@ body {
 
 .footer-container {
   padding-top: 40px;
-  padding-left: 106px;
-  padding-right: 180px;
 }
 
 .bg-image-footer {
   background-image: url("assets/images/footer-image.png");
   background-size: cover;
   background-position: center;
-  position: absolute;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
   z-index: -1;
 }
 
 .form-box-footer {
-  position: absolute;
   bottom: 0;
   right: 180px;
   width: 390px;
   height: 400px;
-  background-color: #ffffff;
   z-index: 1;
 }
 
-/* font style */
+.nav-item {
+  margin-top: 5px;
+}
 
+.nav-item img {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+/* font styles  */
 .nav-link {
   font-size: 16px;
-  letter-spacing: 0px;
+  letter-spacing: 0.5px;
   line-height: 21px;
-  text-transform: uppercase;
   color: #454851;
-  font-weight: bold;
-  font-family: "proxima-nova", sans-serif;
 }
 
 .brand {
-  font-size: 30px;
-  line-height: 21px;
+  font-size: 24px;
+  font-weight: 900;
   color: #171d1c;
-  font-family: "Princess Sofia", cursive;
-  font-weight: bolder;
-  letter-spacing: 0px;
+  letter-spacing: 5px;
 }
 
 .main-title {
-  font-size: 60px;
-  letter-spacing: 1.3px;
-  line-height: 21px;
-  text-transform: uppercase;
-  color: #ffffff;
-  font-family: "proxima-nova", sans-serif;
+  font-size: 56px;
+  letter-spacing: 4px;
 }
 
 .heading-one {
   font-size: 48px;
   color: #171d1c;
-  font-weight: bold;
-  font-family: "Kepler Std";
+  letter-spacing: -0.7px;
 }
 
 .heading-two {
   font-size: 24px;
   color: #454851;
-  font-weight: bold;
-  font-family: "Kepler Std";
+  letter-spacing: -0.2px;
 }
 
 .card-title {
   font-size: 30px;
   color: #171d1c;
-  font-weight: bold;
-  font-family: "Kepler Std";
+  letter-spacing: -1px;
 }
 
 .card-text {
@@ -243,29 +203,26 @@ body {
   line-height: 22px;
   color: #454851;
   font-weight: 300;
-  text-align: center;
+  letter-spacing: 0.6px;
+  margin-bottom: 12px;
 }
 
 .section-six h4 {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
-  color: #ffffff;
-  font-weight: bold;
-  font-family: "proxima-nova", sans-serif;
+  margin-top: 1px;
+  margin-bottom: 3px;
 }
 
 .section-six li {
   font-size: 14px;
-  line-height: 23px;
+  line-height: 24px;
   color: #ffffff;
-  font-weight: normal;
-  font-family: "proxima-nova", sans-serif;
 }
 
 .card-body h5 {
-  font-size: 24px;
+  font-size: 25px;
   color: #171d1c;
-  font-weight: bold;
 }
 
 .card-body p {
@@ -273,11 +230,6 @@ body {
   line-height: 22px;
   color: #454851;
   font-weight: 300;
-  font-family: "proxima-nova", sans-serif;
-}
-
-h1 {
-  margin-bottom: 0;
 }
 
 .holiday-card-btn {
@@ -285,7 +237,7 @@ h1 {
   height: 37px;
   background-color: #f21131;
   border: 1px solid #f21131;
-  margin-top: 27px;
+  margin-top: 30px;
 }
 
 .holiday-card-btn:hover {
@@ -295,108 +247,66 @@ h1 {
 /* form style  */
 
 .search-container {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  background: white;
-  padding: 12px 38px 0px;
+  padding: 10px 40px;
   font-size: 16px;
   color: #999999;
   font-weight: 300;
-  font-family: "proxima-nova", sans-serif;
-}
-
-.custom-input {
-  border: none;
-  border-bottom: 2px solid #ccc;
-  border-radius: 0;
-  padding: 5px;
-  max-width: 190px;
-  background: transparent;
-  outline: none;
-}
-
-.custom-input:focus {
-  border-color: black;
-  box-shadow: none;
-}
-
-.dropdown-toggle {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
 }
 
 .dropdown-toggle::after {
-  border: none;
   content: "⌄";
-  font-size: 14px;
+  font-size: 10px;
   color: gray;
-  margin-left: auto;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid gray;
+  background-color: white;
+  text-align: center;
+  padding-bottom: 6px;
 }
+
 .search-btn {
-  background-color: red;
-  color: white;
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: none;
+  margin-left: 20px;
 }
 
 .form-container {
-  display: flex;
-  align-items: start;
   gap: 20px;
-  background: white;
   font-size: 16px;
   color: #999999;
   font-weight: 300;
-  font-family: "proxima-nova", sans-serif;
   margin: 32px 45px;
-  height: 326px;
+  height: 328px;
 }
 
 .custom-form-input {
-  border: none;
-  border-bottom: 2px solid #ccc;
-  border-radius: 0;
-  padding: 5px;
-  background: transparent;
-  outline: none;
-  margin-bottom: 7px;
+  margin-bottom: -3px;
 }
 
+/* footer & form styles */
 .form-title {
   font-size: 30px;
   color: #1a1a1a;
-  font-weight: bold;
-  font-family: "Kepler Std";
+  letter-spacing: -0.8px;
 }
 
 .footer-form-input {
-  font-size: 16px;
+  font-size: 15px;
   color: #999999;
-  font-family: "proxima-nova", sans-serif;
-  padding: 0;
 }
 
 .footer-form-btn {
   width: 95px;
-  height: 38px;
+  height: 40px;
   background-color: #f21131;
   border: 1px solid #f21131;
-  margin-top: auto;
-}
-
-.dropdown-toggle-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
+  margin-top: 75px;
 }
 
 .holiday-col-size {
@@ -404,22 +314,22 @@ h1 {
   overflow: hidden;
 }
 
-.footer-col-1 {
-  width: 130px;
-  padding-left: 20px;
+.footer-column-2 {
+  margin-left: 36px;
 }
-.footer-col-2 {
-  width: 130px;
-  padding-left: 20px;
+
+.footer-column-3 {
+  margin-left: 30px;
 }
-.footer-col-3 {
-  width: 130px;
-  padding-left: 20px;
+
+.footer-column-4 {
+  margin-left: 66px;
 }
-.footer-col-4 {
-  width: 250px;
-  padding-left: 20px;
+
+.footer-column-5 {
+  margin-left: 45px;
 }
-.footer-col-5 {
-  width: 400px;
+
+.border-secondary {
+  margin-bottom: 18px !important;
 }
