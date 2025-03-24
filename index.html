@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Travel Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Option 1: Include in HTML -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="https://c.webfontfree.com/c.js?f=LustScriptDisplay"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar container-fluid navbar-expand-lg bg-body-tertiary">
+      <div class="container p-0">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul
+            class="navbar-nav w-100 d-flex justify-content-between text-center proxima-nova"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link px-0 fw-bold text-uppercase"
+                aria-current="page"
+                href="#"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <img
+                src="assets/images/rectangle.png"
+                class="rectangle"
+                alt="Image"
+              />
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-0 fw-bold text-uppercase" href="#"
+                >EXPERIENCES</a
+              >
+            </li>
+            <li class="nav-item">
+              <img
+                src="assets/images/rectangle.png"
+                class="rectangle"
+                alt="Image"
+              />
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active brand px-0 text-uppercase princess-sofia"
+                href="#"
+              >
+                PRIVATE HOLIDAYS</a
+              >
+            </li>
+            <li class="nav-item">
+              <img
+                src="assets/images/rectangle.png"
+                class="rectangle"
+                alt="Image"
+              />
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-0 fw-bold text-uppercase" href="#"
+                >QUESTIONS</a
+              >
+            </li>
+            <li class="nav-item">
+              <img
+                src="assets/images/rectangle.png"
+                class="rectangle"
+                alt="Image"
+              />
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-0 fw-bold text-uppercase" href="#"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section 1 -->
+    <div class="section-one container-fluid">
+      <div
+        class="bg-image d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0 start-0 z-n1"
+      >
+        <h1
+          class="text-white fw-bolder main-title text-uppercase bg-transparent mb-0 proxima-nova"
+        >
+          ENJOY FREEDOM LAND
+        </h1>
+      </div>
+      <div class="top-box position-absolute bg-white z-1">
+        <div class="mt-5">
+          <div
+            class="search-container d-flex justify-content-start align-items-center bg-white proxima-nova"
+          >
+            <!-- Destination Dropdown -->
+            <div class="flex-grow-1">
+              <button
+                class="btn dropdown-toggle d-flex justify-content-between align-items-center w-100 text-start custom-input px-0 border-0 bg-transparent outline-0"
+                type="button"
+                data-bs-toggle="dropdown"
+              >
+                Mauritius
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Destination 1</a></li>
+                <li><a class="dropdown-item" href="#">Destination 2</a></li>
+              </ul>
+              <hr class="my-1" />
+            </div>
+
+            <div class="flex-grow-1">
+              <button
+                class="btn dropdown-toggle w-100 d-flex justify-content-between align-items-center text-start custom-input px-0 border-0 bg-transparent outline-0"
+                type="button"
+                data-bs-toggle="dropdown"
+              >
+                24 Sept 2016
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Destination 1</a></li>
+                <li><a class="dropdown-item" href="#">Destination 2</a></li>
+              </ul>
+              <hr class="my-1" />
+            </div>
+
+            <div class="flex-grow-1">
+              <button
+                class="btn dropdown-toggle w-100 d-flex justify-content-between align-items-center text-start custom-input px-0 border-0 bg-transparent outline-0"
+                type="button"
+                data-bs-toggle="dropdown"
+              >
+                10 Oct 2016
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Destination 1</a></li>
+                <li><a class="dropdown-item" href="#">Destination 2</a></li>
+              </ul>
+              <hr class="my-1" />
+            </div>
+
+            <div class="flex-grow-1">
+              <button
+                class="btn dropdown-toggle w-100 d-flex justify-content-between align-items-center text-start custom-input px-0 border-0 bg-transparent outline-0"
+                type="button"
+                data-bs-toggle="dropdown"
+              >
+                5 Bedroom
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">5 Bedroom</a></li>
+                <li><a class="dropdown-item" href="#">2 Bedroom</a></li>
+                <li><a class="dropdown-item" href="#">1 Bedroom</a></li>
+              </ul>
+              <hr class="my-1" />
+            </div>
+
+            <!-- Search Button -->
+            <button
+              class="search-btn bg-danger text-white border-0 d-flex justify-content-center align-items-center"
+            >
+              ➝
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="section-two">
+      <div class="container text-center">
+        <h1 class="heading-one fw-bold mb-0 kepler">
+          See latest vacation ideas
+        </h1>
+        <div class="d-flex justify-content-center align-items-center mx-auto">
+          <img
+            src="assets/images/title-separator.png"
+            class="title-separator"
+            alt="Image"
+          />
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-12 vacation-col-1 position-relative ps-0">
+            <div class="vacation-item position-relative p-0">
+              <img src="assets/images/vacation-1.png" class="w-100" alt="..." />
+              <div
+                class="column-heading position-absolute text-center text-black bg-white"
+              >
+                <h2 class="heading-two border border-black fw-bold kepler">
+                  Beachfront Escapes
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-12 vacation-col-2 position-relative">
+            <div class="vacation-item position-relative p-0">
+              <img src="assets/images/vacation-2.png" class="w-100" alt="..." />
+              <div
+                class="column-heading position-absolute text-center text-black bg-white"
+              >
+                <h2 class="heading-two border border-black fw-bold kepler">
+                  Group Holidays
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-12 vacation-col-3 position-relative pe-0">
+            <div class="vacation-item position-relative p-0">
+              <img src="assets/images/vacation-3.png" class="w-100" alt="..." />
+              <div
+                class="column-heading position-absolute text-center text-black bg-white"
+              >
+                <h2 class="heading-two border border-black fw-bold kepler">
+                  City Breaks
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="section-three">
+      <div class="container">
+        <h1 class="heading-one text-center fw-bold mb-0 kepler">
+          Recent holiday locations
+        </h1>
+        <div class="d-flex justify-content-center align-items-center mx-auto">
+          <img
+            src="assets/images/title-separator.png"
+            class="title-separator"
+            alt="Image"
+          />
+        </div>
+
+        <div class="d-lg-flex justify-content-between align-items-center">
+          <div class="card-container">
+            <div class="row">
+              <div class="col-md-6 col-12 holiday-col-size">
+                <div class="row">
+                  <div class="col-12 p-0">
+                    <img
+                      src="assets/images/holiday-1.png"
+                      class="w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4 p-0">
+                    <img
+                      src="assets/images/holiday-1.png"
+                      class="w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-4 p-0">
+                    <img
+                      src="assets/images/holiday-1.png"
+                      class="w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-4 p-0">
+                    <img
+                      src="assets/images/holiday-1.png"
+                      class="w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-12 bg-white holiday-col-size">
+                <div class="card-body d-flex flex-column gap-1">
+                  <div class="card-title text-start fw-bold kepler">
+                    Thalie 5
+                  </div>
+                  <p class="card-text text-start proxima-nova">
+                    Thalie 5 is located on the exclu- <br />sive Belle Riviere
+                    estate, which is <br />home to several of Luxury Re- <br />
+                    treats' finest villas in Mauritius.
+                  </p>
+                  <div
+                    class="d-lg-flex justify-content-start align-items-center"
+                  >
+                    <div>
+                      <img src="assets/images/bed.png" class="" alt="..." />
+                    </div>
+
+                    <div>
+                      <img src="assets/images/bath.png" class="" alt="..." />
+                    </div>
+
+                    <div>
+                      <img
+                        src="assets/images/beachfront.png"
+                        class=""
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                  <a
+                    href="#"
+                    class="btn btn-primary text-center rounded-pill holiday-card-btn"
+                    >BOOK NOW</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-container">
+            <div class="row">
+              <div class="col-md-6 col-12 holiday-col-size">
+                <div class="row">
+                  <div class="col-12 p-0">
+                    <img
+                      src="assets/images/holiday-2.png"
+                      class="w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4 p-0">
+                    <img
+                      src="assets/images/holiday-2.png"
+                      class="w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-4 p-0">
+                    <img
+                      src="assets/images/holiday-2.png"
+                      class="w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-4 p-0">
+                    <img
+                      src="assets/images/holiday-2.png"
+                      class="w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-12 bg-white holiday-col-size">
+                <div class="card-body d-flex flex-column gap-1">
+                  <div class="card-title text-start fw-bold kepler">
+                    Montage Kapalua
+                  </div>
+                  <p class="card-text text-start proxima-nova">
+                    Located only a jaunt from Kahului airport, you'll be greeted
+                    by an easy and scenic drive along the West Maui Mountains
+                    and crystal.
+                  </p>
+                  <div
+                    class="d-lg-flex justify-content-start align-items-center"
+                  >
+                    <div>
+                      <img src="assets/images/bed.png" class="" alt="..." />
+                    </div>
+                    <div>
+                      <img src="assets/images/bath.png" class="" alt="..." />
+                    </div>
+                    <div>
+                      <img
+                        src="assets/images/beachfront.png"
+                        class=""
+                        alt="..."
+                      />
+                    </div>
+                    <div>
+                      <img src="assets/images/pool.png" class="" alt="..." />
+                    </div>
+                  </div>
+                  <a
+                    href="#"
+                    class="btn btn-primary text-center rounded-pill holiday-card-btn"
+                    >BOOK NOW</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-lg-flex justify-content-between align-items-center">
+          <div class="card-container">
+            <div class="row">
+              <div class="col-md-6 col-12 holiday-col-size">
+                <div class="row">
+                  <div class="col-12 p-0">
+                    <img
+                      src="assets/images/holiday-4.png"
+                      class="w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4 p-0">
+                    <img
+                      src="assets/images/holiday-4.png"
+                      class="w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-4 p-0">
+                    <img
+                      src="assets/images/holiday-4.png"
+                      class="w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-4 p-0">
+                    <img
+                      src="assets/images/holiday-4.png"
+                      class="w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-12 bg-white holiday-col-size">
+                <div class="card-body d-flex flex-column gap-1">
+                  <div class="card-title text-start fw-bold kepler">
+                    Casa Del Agua
+                  </div>
+                  <p class="card-text text-start proxima-nova">
+                    After a breakfast catered to your taste and served at your
+                    leisure, relax in a hammock under the shade of a palm tree
+                    or let the.
+                  </p>
+                  <div
+                    class="d-lg-flex justify-content-start align-items-center"
+                  >
+                    <div>
+                      <img src="assets/images/bed.png" class="" alt="..." />
+                    </div>
+                    <div>
+                      <img src="assets/images/bath.png" class="" alt="..." />
+                    </div>
+                    <div>
+                      <img
+                        src="assets/images/beachfront.png"
+                        class=""
+                        alt="..."
+                      />
+                    </div>
+                    <div>
+                      <img src="assets/images/pool.png" class="" alt="..." />
+                    </div>
+                  </div>
+                  <a
+                    href="#"
+                    class="btn btn-primary text-center rounded-pill holiday-card-btn"
+                    >BOOK NOW</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-container">
+            <div class="row">
+              <div class="col-md-6 col-12 holiday-col-size">
+                <div class="row">
+                  <div class="col-12 p-0">
+                    <img
+                      src="assets/images/holiday-3.png"
+                      class="w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4 p-0">
+                    <img
+                      src="assets/images/holiday-3.png"
+                      class="w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-4 p-0">
+                    <img
+                      src="assets/images/holiday-3.png"
+                      class="w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-4 p-0">
+                    <img
+                      src="assets/images/holiday-3.png"
+                      class="w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-12 bg-white holiday-col-size">
+                <div class="card-body d-flex flex-column gap-1">
+                  <div class="card-title text-start fw-bold kepler">
+                    Casa Jaguar
+                  </div>
+                  <p class="card-text text-start proxima-nova">
+                    Sleek and sophisticated like the animal for which it has
+                    been named, Casa Jaguar is an immac- ulate tropical luxury
+                    villa located
+                  </p>
+                  <div
+                    class="d-lg-flex justify-content-start align-items-center"
+                  >
+                    <div>
+                      <img src="assets/images/bed.png" class="" alt="..." />
+                    </div>
+                    <div>
+                      <img src="assets/images/bath.png" class="" alt="..." />
+                    </div>
+                    <div>
+                      <img src="assets/images/pool.png" class="" alt="..." />
+                    </div>
+                  </div>
+                  <a
+                    href="#"
+                    class="btn btn-primary text-center rounded-pill holiday-card-btn"
+                    >BOOK NOW</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 4 -->
+    <div class="section-four">
+      <div class="container text-center">
+        <h1 class="heading-one fw-bold mb-0 kepler">Why we are different</h1>
+        <div class="d-flex justify-content-center align-items-center mx-auto">
+          <img
+            src="assets/images/title-separator.png"
+            class="title-separator"
+            alt="Image"
+          />
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-12 vacation-col-1 ps-0">
+            <div class="card bg-transparent border-0 p-0">
+              <div
+                class="card-image d-flex justify-content-center align-items-center rounded-circle mx-auto"
+              >
+                <img src="assets/images/vector-1.png" class="" alt="Image" />
+              </div>
+              <div class="card-body px-0">
+                <h5 class="card-title fw-bold kepler">Tailor-Made Packages</h5>
+                <p class="card-text proxima-nova">
+                  When it comes to delivering the best planned <br />
+                  holiday package to you, we strive to exceed <br />
+                  your expectations. For us, it has to be spot-on. <br />
+                  We do what we do in the ideal way possible.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 vacation-col-2">
+            <div class="card bg-transparent border-0 p-0">
+              <div
+                class="card-image d-flex justify-content-center align-items-center rounded-circle mx-auto"
+              >
+                <img src="assets/images/vector-3.png" class="" alt="Image" />
+              </div>
+              <div class="card-body px-0">
+                <h5 class="card-title fw-bold kepler">Best Experience</h5>
+                <p class="card-text proxima-nova">
+                  At Purplerain Holidays, we choose to put forth <br />an
+                  essence of our own expertise and firsthand <br />
+                  experiences into our services and method of <br />
+                  planning.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 vacation-col-3 pe-0">
+            <div class="card bg-transparent border-0">
+              <div
+                class="card-image d-flex justify-content-center align-items-center rounded-circle mx-auto"
+              >
+                <img src="assets/images/vector-2.png" class="" alt="Image" />
+              </div>
+              <div class="card-body px-0">
+                <h5 class="card-title fw-bold kepler">Exquisite Service</h5>
+                <p class="card-text proxima-nova">
+                  From the moment you make the first call to en- <br />
+                  quire, our services are geared up. From the <br />time
+                  booking, to your stay and well after the trip <br />as well,
+                  we will guide you and be at your back
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 5 -->
+    <div class="section-five container-fluid position-relative">
+      <div
+        class="bg-image-footer d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0 start-0 end-0"
+      ></div>
+      <div class="form-box-footer position-absolute bg-white">
+        <div class="">
+          <div class="form-container bg-white proxima-nova">
+            <div class="form-title mb-3 fw-bold kepler">Send us a message</div>
+            <button
+              class="btn dropdown-toggle-footer d-flex justify-content-between align-items-center w-100 text-start custom-form-input footer-form-input px-1 border-0 bg-transparent outline-0 proxima-nova"
+              type="button"
+              data-bs-toggle="dropdown"
+            >
+              Your name
+            </button>
+
+            <hr class="w-100 border-secondary opacity-50 m-0 p-0" />
+
+            <button
+              class="btn dropdown-toggle-footer d-flex justify-content-between align-items-center w-100 text-start custom-form-input footer-form-input px-1 border-0 bg-transparent outline-0 proxima-nova"
+              type="button"
+              data-bs-toggle="dropdown"
+            >
+              Email
+            </button>
+            <hr class="w-100 border-secondary opacity-50 m-0 p-0" />
+
+            <button
+              class="btn dropdown-toggle-footer d-flex justify-content-between align-items-center w-100 text-start custom-form-input footer-form-input px-1 border-0 bg-transparent outline-0 proxima-nova"
+              type="button"
+              data-bs-toggle="dropdown"
+            >
+              Message
+            </button>
+            <hr class="w-100 border-secondary opacity-50 m-0 p-0" />
+
+            <!-- Search Button -->
+            <a
+              href="#"
+              class="btn btn-primary text-center rounded-pill footer-form-btn"
+              >SEND</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 6 -->
+    <div
+      class="section-six container-fluid bg-dark text-light p-0 proxima-nova"
+    >
+      <div class="container p-0">
+        <div class="footer-container">
+          <div class="d-flex justify-content-start">
+            <div class="footer-column-1">
+              <div class="">
+                <h4 class="bg-dark fw-bold">Information</h4>
+                <ul class="list-unstyled">
+                  <li>About us</li>
+                  <li>Online inquiry</li>
+                  <li>Call us</li>
+                  <li>General enquiries</li>
+                  <li>Booking conditions</li>
+                  <li>Privacy policyy</li>
+                  <li>Refund policy</li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-column-2">
+              <div class="">
+                <h4 class="bg-dark fw-bold">Experiences</h4>
+                <ul class="list-unstyled">
+                  <li>Beach</li>
+                  <li>Adventure</li>
+                  <li>Wildlife</li>
+                  <li>Honeymoon</li>
+                  <li>Culture & heritage</li>
+                  <li>Nature</li>
+                  <li>Spiritual</li>
+                  <li>Hill station</li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-column-3">
+              <div>
+                <h4 class="bg-dark fw-bold">Themes</h4>
+                <ul class="list-unstyled">
+                  <li>Party</li>
+                  <li>Wedding</li>
+                  <li>Group tours</li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-column-4">
+              <div>
+                <div class="row">
+                  <div class="col">
+                    <div>
+                      <h4 class="bg-dark fw-bold">Popular destinations</h4>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4">
+                      <div>
+                        <ul class="list-unstyled">
+                          <li>Leh-Ladakh</li>
+                          <li>Manali</li>
+                          <li>Ooty</li>
+                          <li>Allepey</li>
+                          <li>Darjeeling</li>
+                          <li>Goa</li>
+                          <li>Mahabaleshwar</li>
+                          <li>Agra</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-4 ps-3">
+                      <div>
+                        <ul class="list-unstyled">
+                          <li>Coorg</li>
+                          <li>Mysore</li>
+                          <li>Gir</li>
+                          <li>Kabini</li>
+                          <li>Jaipur</li>
+                          <li>Kodaikanal</li>
+                          <li>Andaman</li>
+                          <li>Shimla</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-2"></div>
+                    <div class="col-3"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-end footer-column-5">
+              <div>
+                <ul class="list-unstyled">
+                  <li>Phone: +91-80-41127931</li>
+                  <li>Email: info@aztechdesign.co</li>
+                  <li>.</li>
+                  <li><h4 class="bg-dark fw-bold">Address</h4></li>
+                  <li>1st Main, Bucharest</li>
+                  <li>2nd Stage Raiffisen Tower,</li>
+                  <li>Bucharest - 400400</li>
+                  <li>Romania</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
